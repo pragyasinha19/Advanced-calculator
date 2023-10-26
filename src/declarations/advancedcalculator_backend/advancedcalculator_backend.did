@@ -1,0 +1,12 @@
+service : {
+  coseno: (float64) -> (float64);
+  dividir: (int, int) -> (int);
+  logaritmo: (float64) -> (float64);
+  multiplicar: (int, int) -> (int);
+  potencia: (float64, float64) -> (float64);
+  raizCuadrada: (float64) -> (float64);
+  restar: (int, int) -> (int);
+  seno: (float64) -> (float64);
+  sumar: (int, int) -> (int);
+  tangente: (float64) -> (float64);
+}

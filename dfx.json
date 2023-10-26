@@ -1,0 +1,29 @@
+{
+  "canisters": {
+    "advancedcalculator_backend": {
+      "main": "src/advancedcalculator_backend/main.mo",
+      "type": "motoko"
+    },
+    "advancedcalculator_frontend": {
+      "dependencies": [
+        "advancedcalculator_backend"
+      ],
+      "frontend": {
+        "entrypoint": "src/advancedcalculator_frontend/src/index.html"
+      },
+      "source": [
+        "src/advancedcalculator_frontend/assets",
+        "dist/advancedcalculator_frontend/"
+      ],
+      "type": "assets"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
